@@ -139,6 +139,10 @@
                             {{-- <div class="text">Detalles a tener en cuenta.</div>--}}
                             <ul class="info-list">
                                 <li>
+                                    <h5>Costo</h5>
+                                    <span>Gratuito</span>
+                                </li>
+                                <li>
                                     <h5>Modalidad:</h5>
                                     <span>Por Videoconferencia (Zoom)</span>
                                 </li>

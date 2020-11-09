@@ -188,7 +188,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="about-widget footer-widget">
-                                <h3 class="widget-title">Acerca de Escuelita.dev</h3>
+                                <h3 class="widget-title">¿Qué es Escuelita.dev?</h3>
                                 <div class="widget-content">
                                     <div class="text">
                                         <p>Somos un emprendimiento sin fines de lucro.</p>
@@ -228,9 +228,9 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="subscribe-widget footer-widget">
-                                <h3 class="widget-title">Subscríbete</h3>
+                                <h3 class="widget-title">No te pierdas!</h3>
                                 <div class="widget-content">
-                                    <div class="text">Para estar  tanto de los nuevos cursos y novedades de Escuelita.dev para tí</div>
+                                    <div class="text">Si te agrade lo que hacemos inscríbete para estar tanto con nosotros :)</div>
                                     <div class="subscribe-inner">
                                         <form action="https://dev.us2.list-manage.com/subscribe/post?u=e66e067f7aed1f417ebf8672b&amp;id=b2bdb8327d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="subscribe-form validate" target="_blank" novalidate>
                                             <div class="form-group">
