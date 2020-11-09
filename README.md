@@ -4,9 +4,9 @@ Este repositorio tiene el código del sitio de Escuelita.dev (non-profit).
 
 Somos una escuela de programación sin fines de lucro, para niños y jóvenes. Damos cursos gratuitos para fomentar la integración de los niños y que puedan cultivar una pasión que les ayude a tener un mejor futuro 
 
-# Es improtante para tí?
+# Es importante para tí?
 
-Conoce más de nuestro proyecto y colabora entrando a https://Escuelita.dev
+Conoce más de nuestro proyecto y corre la voz. Estamos en https://Escuelita.dev
 
 # Licencia
 
