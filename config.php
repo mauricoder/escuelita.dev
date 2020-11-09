@@ -6,4 +6,5 @@ return [
     'title' => 'Escuelita.dev',
     'description' => 'Escuela de Programación para Niños.',
     'collections' => [],
+    'language' => 'es'
 ];
