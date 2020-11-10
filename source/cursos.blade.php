@@ -5,7 +5,7 @@
     <section class="page-title centred" style="background-image: url(/assets/images/background/header-cursos-12.jpg);">
         <div class="container">
             <div class="content-box">
-                <h1>Cursos de Programación para Niños</h1>
+                <h1>Cursos de Programación para Niños y Jóvenes</h1>
                 <ul class="bread-crumb clearfix">
                     <li><a href="/">Inicio</a></li>
                     <li>Cursos</li>

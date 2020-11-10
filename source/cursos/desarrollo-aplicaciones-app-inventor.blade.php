@@ -156,11 +156,11 @@
                                 </li>
                                 <li>
                                     <h5>Cantidad de encuentros:</h5>
-                                    <span>12 / 1 por semana</span>
+                                    <span>12 clases (una por semana)</span>
                                 </li>
                                 <li>
                                     <h5>Comienzo:</h5>
-                                    <span>A definirse</span>
+                                    <span>Martes 24 de Noviembre - 18:00hs de Argentina</span>
                                 </li>                                
                             </ul>
                         </div>
