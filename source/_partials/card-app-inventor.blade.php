@@ -7,6 +7,7 @@
             <ul class="info-box">
                 <li><span>12-17 años</span></li>
                 <li><span>15 cupos</span></li>
+                <li><span>GRATUITO</span></li>                
             </ul>
         </div>
     </div>

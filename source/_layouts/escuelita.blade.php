@@ -31,7 +31,7 @@
 
 
     <!-- .preloader -->
-    <div class="preloader"></div>
+     <div class="preloader"></div>
     <!-- /.preloader -->
 
 
@@ -122,6 +122,7 @@
                                         <li><a href="/">Inicio</a></li>
                                         <li><a href="/#acerca">Acerca</a></li> 
                                         <li><a href="/cursos/">Cursos</a></li> 
+                                        <li><a href="/webinarios/">Webinarios</a></li> 
                                         <li><a href="/#contact">Contacto</a></li>                                        
                                     </ul>
                                 </div>
@@ -158,7 +159,8 @@
                             <ul class="navigation clearfix">
                                 <li><a href="/">Inicio</a></li>
                                 <li><a href="/#acerca">Acerca</a></li> 
-                                <li class="dropdown"><a href="/cursos/">Cursos</a></li>
+                                <li><a href="/cursos/">Cursos</a></li>
+                                <li><a href="/webinarios/">Webinarios</a></li> 
                                 <li><a href="/#contact">Contacto</a></li>
                             </ul>
                         </div>
@@ -203,7 +205,8 @@
                                 <div class="widget-content">
                                     <ul>
                                         <li><a href="/#acerca">Acerca de Nosotros</a></li>
-                                        <li><a href="/cursos/">Cursos</a></li>
+                                        <li><a href="/cursos/">Cursos Gratis</a></li>
+                                        <li><a href="/webinarios/">Webinarios Gratis</a></li> 
                                         <li><a href="/#contact">Contacto</a></li>
 {{--                                         <li><a href="#">Teacher & Staff</a></li>
                                         <li><a href="#">Contact us</a></li>

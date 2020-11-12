@@ -4908,14 +4908,14 @@ h3 a:hover{
   margin-right: 20px;
 }
 
-.class-details .inner-box .lower-content .list li{
+.class-details .inner-box .lower-content .list li, .class-details .inner-box .upper-content .list li{
   position: relative;
   display: block;
   margin-bottom: 5px;
   padding: 0px 0px 0px 17px;
 }
 
-.class-details .inner-box .lower-content .list li:before{
+.class-details .inner-box .lower-content .list li:before, .class-details .inner-box .upper-content .list li:before{
   position: absolute;
   content: '';
   background: #ff7162;
@@ -4930,7 +4930,7 @@ h3 a:hover{
   margin-bottom: 0px;
 }
 
-.class-details .inner-box .lower-content .list{
+.class-details .inner-box .lower-content .list, .class-details .inner-box .upper-content .list{
   position: relative;
   display: block;
   padding-top: 8px;
