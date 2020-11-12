@@ -144,7 +144,7 @@
         <!--Sticky Header-->
         <div class="sticky-header">
             <div class="container clearfix">
-                <figure class="logo-box"><a href="index.html"><img src="/assets/images/logo-escuelita-horizontal.png" alt=""></a></figure>
+                <figure class="logo-box"><a href="/"><img src="/assets/images/logo-escuelita-horizontal.png" alt=""></a></figure>
                 <div class="menu-area">
                     <nav class="main-menu navbar-expand-lg">
                         <div class="navbar-header">
@@ -266,7 +266,7 @@
                         <div class="copyright">Copyright &copy; <a href="#">Escuelita.dev</a> 2020. Todos los derechos reservados</div>
                     </div>
                     <div class="right-content pull-right">
-                        <figure class="footer-logo"><a href="index.html"><img src="/assets/images/logo-escuelita.png" alt=""></a></figure>
+                        <figure class="footer-logo"><a href="/"><img src="/assets/images/logo-escuelita.png" alt=""></a></figure>
                         <ul class="social-style-one footer-social clearfix">
 {{--                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>--}}
