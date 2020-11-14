@@ -7201,6 +7201,30 @@ h3 a:hover{
   margin-bottom: 73px;
 }
 
+.blog-details .blog-details-content .bold-text p{
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+  color: #2b3c6b;
+  margin-top: 28px;
+  margin-bottom: 28px;  
+}
+
+.blog-details .blog-details-content .bold-text p img{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 72px;  
+}
+
+@media (min-width:1200px) {
+  .blog-details .blog-details-content .bold-text p img{
+    width:50%
+  }  
+}
+
 .blog-details .blog-details-content .content-style-one .image-box{
   position: relative;
   display: block;

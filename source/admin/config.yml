@@ -5,7 +5,7 @@ display_url: https://escuelita.dev
 
 publish_mode: editorial_workflow
 media_folder: "source/assets/images/uploads"
-public_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
 
 collections:
   - name: "posts"
