@@ -5,6 +5,10 @@ return [
     'baseUrl' => '',
     'title' => 'Escuelita.dev',
     'description' => 'Escuela de Programación para Niños.',
-    'collections' => [],
+    'collections' => [
+        'posts' => [
+            'path' => 'blog/{date|d-m-Y}/{-filename}',
+        ]
+    ],
     'language' => 'es'
 ];
