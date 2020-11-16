@@ -28,13 +28,14 @@
                                     <h1>Aprende cómo empezar con App Inventor para crear Juegos y Aplicaciones para Celulares</h1>
                                 </div>
                                 <div class="bold-text">
-                                    <p>¿Querés aprender a hacer apicaciones para celulares?</p>
-                                    <p>¿Sabías que con App Inventor todos, incluso niños y jóvenes pueden crear aplicaciones para celulares y juegos?</p>
-                                    <p>En esta clase abierta te ayudaremos a dar los primeros pasos para crear aplicaciones con App Inventor.</p>
+                                    <p>¿Querés aprender a hacer aplicaciones y juegos para celulares?</p>
+                                    <p>¿Sabías que App Inventor es un entorno de programación para todos (incluso jóvenes y niños) puedan crear aplicaciones para celulares y juegos?</p>
+                                    <p>Te invitamos a compartir con nosotros una clase, para enseñarte cómo emepzar a hacer Aplicaciones Juegos con App Inventor.</p>
+                                    <p>La clase es Gratuita, como todos los cursos de Escuelita.dev.</p>
                                     <p>Aprenderás:</p>
                                     <p>
                                         <ul class="list">
-                                            <li>Cómo es y se usa la interfaz de App Inventor para la creación de aplicaciones</li>
+                                            <li>Cómo es y se usa App Inventor para la creación de aplicaciones</li>
                                             <li>Cómo se diseñan los componentes</li>
                                             <li>Cómo es la programación en bloques</li>
                                             <li>Cómo probar tu aplicación con el uso de un Emulador</li>
@@ -42,8 +43,7 @@
                                     </p>
                                 </div>
 
-                                <div class="bold-text">La clase es gratuita, y es el Martes 17 a las 18:00horas de Argentina. Inscríbete y te tendremos. Se celebrará por Zoom.</div>
-                                <div class="bold-text">¡Inscríbete para participar!</div>
+                                <div class="bold-text">La es el Martes 17 a las 18:00horas de Argentina. ¡Inscríbete para participar!</div>
 
                                 <div class="info-box">
                                     <ul class="clearfix">
