@@ -196,3 +196,13 @@
     </section>
     <!-- class-details end -->    
 @endsection
+
+@section('finbody')
+<script>
+    amplitude.getInstance().logEvent('Ve Curso', {curso: 'Desarrollo Aplicaciones App Inventor'});
+
+    $( ".typeform-share" ).click(function() {
+        amplitude.getInstance().logEvent('Click Inscripcion Curso', {curso: 'Desarrollo Aplicaciones App Inventor'});
+    });
+</script>    
+@endsection

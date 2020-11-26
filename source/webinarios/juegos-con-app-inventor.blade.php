@@ -111,5 +111,9 @@
             </div>
         </div>
     </section>
+
+    <script>
+        amplitude.getInstance().logEvent('Ve Webinario', {webinario: 'Juegos con App Inventor'});
+    </script>
     <!-- class-details end -->    
 @endsection
