@@ -137,6 +137,22 @@
                                 <div class="bold-text">
                                     <p>El curso es gratuito, y estamos en fase de pre-inscripción. Puedes inscribirte ahora y te tendremos al tanto de la fecha de inicio. Pídele a tu madre / padre o adulto responsable que haga la inscripción y entraremos en contacto contigo para darte más información y confirmar tu inscripción.</p>
                                 </div>
+                                <div class="info-box">
+                                    <ul class="clearfix">
+                                        <li>
+                                            <figure class="thumb-box"><img src="/assets/images/docentes/brenda-torrez.jpg" alt=""></figure>
+                                            <h6>Docente</h6>
+                                            <h5>Brenda Torrez</h5>
+                                        </li>
+                                        <li>
+                                            <h6>Categoría</h6>
+                                            <h5>Programación</h5>
+                                        </li>
+                                        <li class="btn-box">
+                                            <a class="typeform-share button" href="https://form.typeform.com/to/xP1beIWC" data-mode="drawer_right" style="display:inline-block;text-decoration:none;background-color:#FF7162;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:0px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">INSCRIBIRME</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
