@@ -27,7 +27,7 @@
                                     <h5>En este curso</h5>
                                     <h1>Aprende a crear Aplicaciones para Celulares</h1>
                                 </div>
-                                <div class="bold-text">En este curso aprenderás desde el comienzo cómo crear aplicaciones y juegos para Celulares con el famoso App Inventor del MIT.</div>
+                                <div class="bold-text">En este curso, dirigido a jóvenes de 12 a 17 años, aprenderás desde el comienzo cómo crear aplicaciones y juegos para Celulares con el famoso App Inventor del MIT.</div>
                                 <div class="info-box">
                                     <ul class="clearfix">
                                         <li>
@@ -73,10 +73,7 @@
                                     <p>A niños y adolescentes de 12 a 17 años con ganas de aprender a crear aplicaciones móviles. Especialmente a quienes no tienen conocimientos de programación</p>
                                 </div>
 
-                                <h3>¿Qué necesitas para hacer el curso?</h3>
-                                <div class="bold-text">
-                                    <p>Para trabajar con App Inventor necesitarás una PC con conexión a Internet, y un teléfono celular (Smartphone con Android) </p>
-                                </div>
+
 
                                 <h3>Temario del curso</h3>
                                 <div class="bold-text">
@@ -128,6 +125,18 @@
                                         </div>
                                     </li>
                                 </ul>
+
+                                <h3 class="mt-5">¿Qué necesitas para hacer el curso?</h3>
+                                <div class="bold-text">
+                                    <p>Para trabajar con App Inventor necesitarás una PC con conexión a Internet, y un teléfono celular (Smartphone con Android) </p>
+                                    <p>Además las clases serán por Zoom. Necesitarás una conexión que soporte llamadas por videoconferencia.</p>
+                                    <p>Si te falta alguno de estos recursos, y el curso te interesa, por favor, ¡inscríbete igual! Queremos saber de tí y apoyarte para que puedas aprender Programación.</p>                                    
+                                </div>
+
+                                <h3 class="mt-5">¿Quieres participar?</h3>
+                                <div class="bold-text">
+                                    <p>El curso es gratuito, y estamos en fase de pre-inscripción. Puedes inscribirte ahora y te tendremos al tanto de la fecha de inicio. Pídele a tu madre / padre o adulto responsable que haga la inscripción y entraremos en contacto contigo para darte más información y confirmar tu inscripción.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -160,7 +169,7 @@
                                 </li>
                                 <li>
                                     <h5>Comienzo:</h5>
-                                    <span>Martes 24 de Noviembre - 18:00hs de Argentina</span>
+                                    <span>PROXIMAMENTE</span>
                                 </li>                                
                             </ul>
                         </div>

@@ -242,9 +242,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="subscribe-widget footer-widget">
-                                <h3 class="widget-title">No te pierdas!</h3>
+                                <h3 class="widget-title">¡No te pierdas!</h3>
                                 <div class="widget-content">
-                                    <div class="text">Si te agrade lo que hacemos inscríbete para estar tanto con nosotros :)</div>
+                                    <div class="text">Déjanos tu email para tenerte al tanto de las novedades de Escuelita.dev :)</div>
                                     <div class="subscribe-inner">
                                         <form action="https://dev.us2.list-manage.com/subscribe/post?u=e66e067f7aed1f417ebf8672b&amp;id=b2bdb8327d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="subscribe-form validate" target="_blank" novalidate>
                                             <div class="form-group">
@@ -320,6 +320,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- main-js -->
 <script src="/assets/js/script.js"></script>
-
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/e66e067f7aed1f417ebf8672b/b5feeb9c54ebb7377313651c3.js");</script>
 </body><!-- End of .page_wrapper -->
 </html>

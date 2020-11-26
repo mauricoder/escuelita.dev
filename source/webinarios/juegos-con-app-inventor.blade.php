@@ -43,9 +43,7 @@
                                     </p>
                                 </div>
 
-                                <div class="bold-text">La es el Martes 17 a las 18:00horas de Argentina. ¡Inscríbete para participar!</div>
-
-                                <div class="info-box">
+{{--                            <div class="info-box">
                                     <ul class="clearfix">
                                         <li>
                                             <figure class="thumb-box"><img src="/assets/images/docentes/brenda-torrez.jpg" alt=""></figure>
@@ -60,7 +58,7 @@
                                             <a class="typeform-share button" href="https://form.typeform.com/to/POmJ9HeT" data-mode="drawer_right" style="display:inline-block;text-decoration:none;background-color:#FF7162;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:0px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">INSCRIBIRME</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> --}}
                             </div>
                             <div class="lower-content">
                                 <h3>¿Qué es App Inventor?</h3>
@@ -79,6 +77,10 @@
                                 <h3>¿A quiénes va dirigido?</h3>
                                 <div class="bold-text">
                                     <p>A niños y adolescentes con ganas de aprender a crear aplicaciones móviles. Especialmente a quienes no tienen conocimientos de programación</p>
+                                </div>
+
+                                <div class="bold-text">
+                                    <p>¡Este Webinario ya se celebró! 😬 Pero, ¡te podemos avisar cuando se repita! 😄 <a href="http://eepurl.com/hh-7P9">Inscíbete a la lista de Amigos de Escuelita.dev aquí</a> y te tendremos al tanto</p>
                                 </div>
                             </div>
                         </div>
