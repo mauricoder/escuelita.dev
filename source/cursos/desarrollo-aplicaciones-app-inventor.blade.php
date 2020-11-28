@@ -39,12 +39,14 @@
                                             <h6>Categoría</h6>
                                             <h5>Programación</h5>
                                         </li>
-                                        <li class="btn-box">
-                                            <a class="typeform-share button" href="https://form.typeform.com/to/xP1beIWC" data-mode="drawer_right" style="display:inline-block;text-decoration:none;background-color:#FF7162;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:0px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">INSCRIBIRME</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                                        <li class="btn-box" x-data>
+                                            <a class="typeform-share button" x-bind:href="addUtms('https://eprenda.typeform.com/c/ZEdhRIcn')" data-mode="drawer_right" style="display:inline-block;text-decoration:none;background-color:#FF7162;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:0px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">INSCRIBIRME</a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
+
+
                             <div class="lower-content">
                                 <h3>¿Qué es App Inventor?</h3>
                                 <div class="bold-text">
@@ -198,11 +200,28 @@
 @endsection
 
 @section('finbody')
+@parent
 <script>
     amplitude.getInstance().logEvent('Ve Curso', {curso: 'Desarrollo Aplicaciones App Inventor'});
 
     $( ".typeform-share" ).click(function() {
         amplitude.getInstance().logEvent('Click Inscripcion Curso', {curso: 'Desarrollo Aplicaciones App Inventor'});
     });
+
+    function addUtms (link) {
+        const params = new URLSearchParams(window.location.search);
+        const utm_params = [];
+        params.forEach(function(value, key) {
+            if (key.startsWith('utm_')) {
+                utm_params.push(key+'='+value)
+            }
+        })
+        utm_search = utm_params.join('&');
+        if (!!utm_search) {
+            return link + (link.indexOf('?') === -1 ? '?' : '&') + utm_search;
+        } else {
+            return link
+        }
+    };
 </script>    
 @endsection
