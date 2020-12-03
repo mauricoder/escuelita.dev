@@ -13,16 +13,63 @@
 
 
 <!-- Stylesheets -->
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W92TZHV');</script>
+<!-- End Google Tag Manager -->
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-24678770-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-24678770-2');
+</script>
+<script type="text/javascript">
+  (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+  ;r.type="text/javascript"
+  ;r.integrity="sha384-girahbTbYZ9tT03PWWj0mEVgyxtZoyDF9KVZdL+R53PP5wCY0PiVUKq0jeRlMx9M"
+  ;r.crossOrigin="anonymous";r.async=true
+  ;r.src="https://cdn.amplitude.com/libs/amplitude-7.2.1-min.gz.js"
+  ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
+  console.log("[Amplitude] Error: could not load SDK")}}
+  ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+  ;function s(e,t){e.prototype[t]=function(){
+  this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+  var o=function(){this._q=[];return this}
+  ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+  ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+  ;return this}
+  ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+  ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+  ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId", "enableTracking", "setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+  ;function v(e){function t(t){e[t]=function(){
+  e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+  for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+  e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+  ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+  ;e.amplitude=n})(window,document);
+
+  amplitude.getInstance().init("6d2a3f757a6f48beab4ca89bc95136bc");
+</script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </head>
 
 <!-- page wrapper -->
 <body class="boxed_wrapper">
-
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W92TZHV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
     <!-- .preloader -->
-    <div class="preloader"></div>
+     <div class="preloader"></div>
     <!-- /.preloader -->
 
 
@@ -84,6 +131,7 @@
                                         <li><a href="/">Inicio</a></li>
                                         <li><a href="/#acerca">Acerca</a></li> 
                                         <li><a href="/cursos/">Cursos</a></li> 
+                                        <li><a href="/webinarios/">Webinarios</a></li> 
                                         <li><a href="/#contact">Contacto</a></li>                                        
                                     </ul>
                                 </div>
@@ -98,7 +146,7 @@
         <!--Sticky Header-->
         <div class="sticky-header">
             <div class="container clearfix">
-                <figure class="logo-box"><a href="index.html"><img src="/assets/images/logo-escuelita-horizontal.png" alt=""></a></figure>
+                <figure class="logo-box"><a href="/"><img src="/assets/images/logo-escuelita-horizontal.png" alt=""></a></figure>
                 <div class="menu-area">
                     <nav class="main-menu navbar-expand-lg">
                         <div class="navbar-header">
@@ -113,7 +161,8 @@
                             <ul class="navigation clearfix">
                                 <li><a href="/">Inicio</a></li>
                                 <li><a href="/#acerca">Acerca</a></li> 
-                                <li class="dropdown"><a href="/cursos/">Cursos</a></li>
+                                <li><a href="/cursos/">Cursos</a></li>
+                                <li><a href="/webinarios/">Webinarios</a></li> 
                                 <li><a href="/#contact">Contacto</a></li>
                             </ul>
                         </div>
@@ -219,7 +268,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="about-widget footer-widget">
-                                <h3 class="widget-title">Acerca de Escuelita.dev</h3>
+                                <h3 class="widget-title">¿Qué es Escuelita.dev?</h3>
                                 <div class="widget-content">
                                     <div class="text">
                                         <p>Somos un emprendimiento sin fines de lucro.</p>
@@ -234,7 +283,8 @@
                                 <div class="widget-content">
                                     <ul>
                                         <li><a href="/#acerca">Acerca de Nosotros</a></li>
-                                        <li><a href="/cursos/">Cursos</a></li>
+                                        <li><a href="/cursos/">Cursos Gratis</a></li>
+                                        <li><a href="/webinarios/">Webinarios Gratis</a></li> 
                                         <li><a href="/#contact">Contacto</a></li>
 
                                     </ul>
@@ -256,9 +306,9 @@
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="subscribe-widget footer-widget">
-                                <h3 class="widget-title">Subscríbete</h3>
+                                <h3 class="widget-title">¡No te pierdas!</h3>
                                 <div class="widget-content">
-                                    <div class="text">Para estar  tanto de los nuevos cursos y novedades de Escuelita.dev para tí</div>
+                                    <div class="text">Déjanos tu email para tenerte al tanto de las novedades de Escuelita.dev :)</div>
                                     <div class="subscribe-inner">
                                         <form action="https://dev.us2.list-manage.com/subscribe/post?u=e66e067f7aed1f417ebf8672b&amp;id=b2bdb8327d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="subscribe-form validate" target="_blank" novalidate>
                                             <div class="form-group">
@@ -291,7 +341,7 @@
                         <div class="copyright">Copyright &copy; <a href="#">Escuelita.dev</a> 2020. Todos los derechos reservados</div>
                     </div>
                     <div class="right-content pull-right">
-                        <figure class="footer-logo"><a href="index.html"><img src="/assets/images/logo-escuelita.png" alt=""></a></figure>
+                        <figure class="footer-logo"><a href="/"><img src="/assets/images/logo-escuelita.png" alt=""></a></figure>
                         <ul class="social-style-one footer-social clearfix">
 
                             <li><a href="https://www.instagram.com/escuelita.dev/"><i class="fab fa-instagram"></i></a></li>
@@ -333,6 +383,7 @@
 
 <!-- main-js -->
 <script src="/assets/js/script.js"></script>
-
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/e66e067f7aed1f417ebf8672b/b5feeb9c54ebb7377313651c3.js");</script>
+    
 </body><!-- End of .page_wrapper -->
 </html>
