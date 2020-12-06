@@ -140,10 +140,10 @@
 @section('finbody')
 @parent
 <script>
-    amplitude.getInstance().logEvent('Ve Curso', {curso: 'Desarrollo Aplicaciones App Inventor'});
+    amplitude.getInstance().logEvent('Ve Curso', {curso: 'Programacion Divertida con Scratch'});
 
     $( ".typeform-share" ).click(function() {
-        amplitude.getInstance().logEvent('Click Inscripcion Curso', {curso: 'Desarrollo Aplicaciones App Inventor'});
+        amplitude.getInstance().logEvent('Click Inscripcion Curso', {curso: 'Programacion Divertida con Scratch'});
     });
 
     function addUtms (link) {
