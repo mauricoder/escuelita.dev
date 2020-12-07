@@ -2,15 +2,21 @@
 
 @section('body')
     <!--Page Title-->
-    <section class="page-title centred" style="background-image: url(/assets/images/background/header-cursos-9.jpg);">
-        <div class="container">
-            <div class="content-box">
-                <h1>Desarrollo de Aplicaciones con App Inventor</h1>
-                <ul class="bread-crumb clearfix">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li>Cursos</li>
-                </ul>
+    <section class="page-title centred" style="background-image: url(/assets/images/background/fondo-curso-desarrollo-aplicaciones-app-inventor.jpg);">
+        <div class="position-absolute w-100 h-100 opacity-4 bg-dark"></div>
+        <div class="content-box">
+            <div class="row">
+                <div clasS="col-md-4">
+                    <img class="rounded" src="/assets/images/curso-programacion-aplicaciones-ninos-con-mit-app-inventor.png" alt="Curso Desarrollo de Aplicaciones con App Inventor">
+                </div>
+                <div class="col-md-8 text-md-left">
+                    <h1>Desarrollo de Aplicaciones con App Inventor</h1>
+                </div>                    
             </div>
+            <ul class="bread-crumb clearfix">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="/cursos/">Cursos</a></li>
+            </ul>
         </div>
     </section>
     <!--End Page Title-->

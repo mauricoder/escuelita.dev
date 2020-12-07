@@ -2,15 +2,21 @@
 
 @section('body')
     <!--Page Title-->
-    <section class="page-title centred" style="background-image: url(/assets/images/background/header-cursos-29.jpg);">
-        <div class="container">
-            <div class="content-box">
-                <h1>Programación Divertida con Scratch para Niños</h1>
-                <ul class="bread-crumb clearfix">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li>Cursos</li>
-                </ul>
+    <section class="page-title centred" style="background-image: url(/assets/images/background/fondo-curso-scratch.jpg);">
+        <div class="position-absolute w-100 h-100 opacity-4 bg-dark"></div>
+        <div class="content-box">
+            <div class="row">
+                <div clasS="col-md-4">
+                    <img class="rounded" src="/assets/images/curso-programacion-niños-con-scratch.png" alt="Curso Programación Divertida con Scratch para Niños">
+                </div>
+                <div class="col-md-8 text-md-left">
+                    <h1>Programación Divertida con Scratch para Niños</h1>
+                </div>                    
             </div>
+            <ul class="bread-crumb clearfix">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="/cursos/">Cursos</a></li>
+            </ul>
         </div>
     </section>
     <!--End Page Title-->

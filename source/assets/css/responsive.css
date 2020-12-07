@@ -6,6 +6,10 @@
     overflow-x: hidden;
   }
 
+  .page-title .content-box h1{
+    font-size: 66px!important; 
+    line-height: 90px!important;
+   }  
 }
 
 
@@ -664,6 +668,8 @@
   font-size: 40px;
   line-height: 45px;
  }
+
+ 
 
  .error-section .content-box h1{
   font-size: 160px;
