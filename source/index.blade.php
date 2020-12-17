@@ -53,7 +53,7 @@
                             <h5>Acerca de Escuelita.dev</h5>
                             <h1>Bienvenid@ a Escuelita.dev</h1>
                         </div>
-                        <div class="bold-text">Somos un emprendimiento sin fines de lucro que ayuda a niños y jóvenes a aprender a Programar.</div>
+                        <div class="bold-text">Somos un emprendimiento social que ayuda a niños y jóvenes a aprender a Programar.</div>
                         <div class="bold-text">Nuestra misión es ayudar a niños y jóvenes a aprender programación para que puedan ser más felices ahora y tener un mejor futuro.</div>
                         <div class="bold-text">La programación ayuda a los chicos a aprender a trabajar en equipo, desarrollar habilidades sociales, aprender a resolver problemas, y abre las puertas a una profesión.</div>
                         <div class="bold-text">Por eso queremos que TODO niño y joven que quiera tenga la oportunidad de aprender Programación.</div>
