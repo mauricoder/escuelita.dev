@@ -150,10 +150,9 @@
                                 <h3><a href="#">Mauricio Etcheverry</a></h3>
                                 <span class="designation">Fundador</span>
                                 <ul class="social-list">
-                                    <li></li>
-{{--                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/mauricio-etcheverry/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                                    <li><a href="https://twitter.com/maurietchev" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
+{{--                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                                     <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>--}}
                                 </ul>
                             </div>
@@ -170,11 +169,7 @@
                                 <h3><a href="#">Lucía Pardal</a></h3>
                                 <span class="designation">Coordinadora</span>
                             <ul class="social-list">
-                                <li></li>
-                            {{--                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>--}}
+                                <li><a href="https://www.linkedin.com/in/luc%C3%ADapardal/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -190,16 +185,28 @@
                                 <h3><a href="#">Brenda Torrez</a></h3>
                                 <span class="designation">Docente</span>
                                 <ul class="social-list">
-                                    <li></li>
-{{--                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>--}}
+                                <li><a href="https://www.linkedin.com/in/brenda-torrez-758150119/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="image-holder">
+                                <figure class="image-box"><a href="#"><img src="/assets/images/equipo/ezequiel-guzman.jpeg" alt="Ezequiel Guzman"></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Ezequiel Guzman</a></h3>
+                                <span class="designation">Colaborador</span>
+                                <ul class="social-list">
+                                    <li><a href="https://www.linkedin.com/in/ezequiel-guzman-52b056154/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
             </div>
         </div>
     </section>
