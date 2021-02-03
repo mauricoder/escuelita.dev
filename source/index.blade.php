@@ -1,37 +1,19 @@
 @extends('_layouts.escuelita')
 
 @section('body')
-    <!-- main-slider -->
-    <section class="main-slider style-two">
-        <div class="main-slider-carousel owl-carousel owl-theme nav-style-two">
-            <div class="slide" style="background-image:url(/assets/images/main-slider/slider-paisaje-escuelita.jpg)">
-                <div class="container">
-                    <div class="content-box">
-{{--                         <h3></h3>--}}
-                        <h1>El futuro de tus chicos es brillante</h1>
-                        {{-- <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>--}}
-                    </div>
-                </div>
-            </div>
-            <div class="slide" style="background-image:url(/assets/images/main-slider/slider-variacion-computadora.jpg)">
-                <div class="container">
-                    <div class="content-box">
-                        <h1>Les ayudamos a aprender las herramientas de su época</h1>
-                    </div>
-                </div>
-            </div>            
-            <div class="slide" style="background-image:url(/assets/images/main-slider/slider-variacion-niño.jpg)">
-                <div class="container">
-                    <div class="content-box">
-{{--                          <h3>Aprender Programación</h3>--}}
-                        <h1>Para que puedan despegar por sí mismos</h1> 
-{{--                         <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>--}}
-                    </div>
+
+
+    <section class="style-two">
+        <div style="background-image:url(/assets/images/main-slider/slider-paisaje-escuelita.jpg)">
+            <div class="container py-5">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="video-container">                
+                        <iframe src="https://www.youtube-nocookie.com/embed/hohvxKYaFUY?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>                    
                 </div>
             </div>
         </div>
     </section>
-    <!-- main-slider end -->
 
     <!-- about-section -->
     <a name="acerca"></a>    
@@ -67,6 +49,34 @@
         </div>
     </section>
     <!-- about-section end -->    
+
+    <!-- main-slider -->
+    {{-- <section class="main-slider style-two">
+        <div class="main-slider-carousel owl-carousel owl-theme nav-style-two">
+            <div class="slide" style="background-image:url(/assets/images/main-slider/slider-paisaje-escuelita.jpg)">
+                <div class="container">
+                    <div class="content-box">
+                        <h1>El futuro de tus chicos es brillante</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image:url(/assets/images/main-slider/slider-variacion-computadora.jpg)">
+                <div class="container">
+                    <div class="content-box">
+                        <h1>Les ayudamos a aprender las herramientas de su época</h1>
+                    </div>
+                </div>
+            </div>            
+            <div class="slide" style="background-image:url(/assets/images/main-slider/slider-variacion-niño.jpg)">
+                <div class="container">
+                    <div class="content-box">
+                        <h1>Para que puedan despegar por sí mismos</h1> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
+    <!-- main-slider end -->
 
     <!-- classes-section -->
     <a name="cursos"></a>
