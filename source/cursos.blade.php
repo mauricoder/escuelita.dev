@@ -25,6 +25,8 @@
 
                 @include('_partials.card-app-inventor')
                 
+                @include('_partials.card-python')                
+
             </div>
         </div>
     </section>

@@ -88,7 +88,9 @@
             <div class="row">
                 @include('_partials.card-programacion-ninos-scratch')
 
-                @include('_partials.card-app-inventor')                
+                @include('_partials.card-app-inventor')
+
+                @include('_partials.card-python')                
 
             </div>
         </div>
